@@ -23,8 +23,27 @@ Sebelum menjalankan dashboard, pastikan sudah menginstal:
 
 ### 1. Clone Repositori
 
-Pertama, clone repositori proyek ke mesin lokal Anda.
+Pertama, clone repositori proyek ke mesin lokal.
 
 ```bash
-git clone https://github.com/username-anda/bike-sharing-dashboard.git
-cd bike-sharing-dashboard
+git clone https://github.com/dantidn/Proyek-Analisis-Data.git
+cd Proyek-Analisis-Data
+
+### 2. Setup Lingkungan Conda
+
+1. Buka Anaconda Prompt
+2. Setup Lingkungan Conda:
+```bash
+conda create --name dashboard-env python=3.9
+```bash
+conda activate dashboard-env
+```bash
+pip install -r requirements.txt
+
+### 3. Menjalankan Dashboard
+```bash
+cd local-directory
+
+```bash
+streamlit run dashboard.py
+
